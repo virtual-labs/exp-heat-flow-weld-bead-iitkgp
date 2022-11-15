@@ -36,10 +36,10 @@ The temperature reading by the thermocouple is plotted and it is observed that w
 
 <div align="center">
 <img src="./images/Fig. 1.png">
+</div>
 
 ***Figure 1(a) Positioning of thermocouples along the operating heat source***
 ***1(b) Thermal variation created at each point***
-</div>
 
 The maximum temperature and the remaining thermal cycle reach a quasi-steady state shortly following the start of heat deposition from the source. This is shown by the red curve joining the peak temperature for all thermocouples.
 
@@ -48,9 +48,9 @@ When a heat source is moving, the temperature isotherms surrounding it remain co
 
 <div align="center">
 <img src="./images/Fig. 2.png">
+</div>
 
 ***Figure 2. Diagram illustrating the development of a quasi-steady state condition in a moving heat source weld over the course of some time***
-</div>               
 
 ### Time-Temperature curves
       
@@ -62,18 +62,19 @@ Time-Temperature curves can be achieved by placing thermocouples at   various eq
       
 <div align="center">
 <img src="./images/Fig. 3.png">
+</div>               
 
 ***Figure 3. Time-Temperature curves for a moving weld heat source***
-</div>               
 
 ### Spatial isotherms
 Peak temperature separates the heating & cooling zone. Peak temperature will determine the cooling rate. Points closer to peak temperature will cool fast and the points further away from the peak temperature will cool slow. Peak temperature is very important for metallurgical changes in the material.
 
 <div align="center">
 <img src="./images/Fig. 4.png">
+</div>
 
 ***Figure 4. Temperature isotherms near the weld zone***
-</div>
+
 
 ### The generalized heat flow equation:
 An elaborate theoretical analysis of heat flow in welding is carried out using the basic equation of heat flow by conduction in three dimensions. It was originally observed by Rosenthal that the nature of the temperature field in arc welding is quasi-stationary. It means that although the temperature at a point on the plate is changing with time if we consider the temperature isotherms remain stationary i.e., the shape of the temperature field around the arc will be the same whatever its position be. This aspect is shown in Figure 2. The theoretical analysis involves rewriting this equation of heat conduction in a moving coordinate system with the arc centre as the origin. Suitable boundary conditions for cases of thin or thick plates are imposed and a solution is obtained. Temperature does not vary along the thickness for thin plates i.e., it is two-dimensional distribution while it varies along the thickness in the case of thick plates. However, at points somewhat away from the arc, the temperature field becomes two-dimensional even for moderately thick plates.
