@@ -12,26 +12,31 @@ Calculate the peak temperature by using the following formula.
 
 $$ \frac{1}{T_p-T_o}=\frac{4.132* C * \rho * t * x}{H_{net}}+\frac{1}{T_m-T_o} $$
 
-              Where,
-             \\( T_p \\) =    Peak temperature (K) <br>
-             \\( T_o \\)=    Ambient temperature of the workpiece (K) <br>
-             \\(  \rho \\) =    density of the workpiece (g/mm<sup>3</sup>) <br>
-             \\( C  \\) =    specific heat of the workpiece (J/g K <sup>-1</sup>) <br>
-             \\( t   \\)  =    workpiece thickness (mm) <br>
-             \\( x   \\) =    distance from weld centre line (mm) <br>
-             \\( T_m \\)=    Melting temperature of the workpiece (K) <br>
-             \\( H_{net}  =   \frac{q}{v} \\) in (J/m) <br>  <br>
-             Where, <br>  \\( q \\)= heat or energy (J/s) <br>
-             \\( v \\)= Welding speed (m/s) <br> <br>
+Where,
+
+\\( T_p \\) =    Peak temperature (K)
+\\( T_o \\)=    Ambient temperature of the workpiece (K)
+\\(  \rho \\) =    density of the workpiece (g/mm<sup>3</sup>)
+\\( C  \\) =    specific heat of the workpiece (J/g K <sup>-1</sup>)
+\\( t   \\)  =    workpiece thickness (mm)
+\\( x   \\) =    distance from weld centre line (mm)
+\\( T_m \\)=    Melting temperature of the workpiece (K)
+\\( H_{net}  =   \frac{q}{v} \\) in (J/m)
+
+Where, 
+
+\\( q \\)= heat or energy (J/s)
+\\( v \\)= Welding speed (m/s)
    
 Compare the peak temperature obtained from the formula with Virtual experimental result 
 
-     Take material as mild steel
-     \\(  t = 6 mm \\)<br>
-     \\( T_o= 298K\\)<br>
-     \\( \rho = 0.008 g/mm^3 \\)<br>
-     \\( C= 0.5107896 J/g  K^{-1} \\)<br>
-     \( q= 1589.92J/s \\)<br>
-         Assume distance from the weld centre line as   5, 10, and 15mm.
+Take material as mild steel
+
+\\(  t = 6 mm \\)
+\\( T_o= 298K\\)
+\\( \rho = 0.008 g/mm^3 \\)
+\\( C= 0.5107896 J/g  K^{-1} \\)
+\\( q= 1589.92J/s \\)
+Assume distance from the weld centre line as   5, 10, and 15mm.
      
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
