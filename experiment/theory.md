@@ -1,11 +1,12 @@
 #  Introduction
 
 Heat flow study is essential for welding applications to help us understand the importance of heat on the parent material and the welded joint. Heat flow in welding is primarily caused by heat input from the welding source in a specific zone. The added heat dissipates into the body of the parent material by thermal conduction. Usually, the heat source is able to melt the parent materials and the filler metal which solidifies and forms the welded joint.
- 
+
 Despite the source's net energy is conducted to the parent material as heat, some of the heat is used to melt the metal and produce the weld. Some of heat is carried away from the deposition point, increasing the temperature of the material surrounding the fusion zone and producing undesirable   metallurgical and geometrical changes. This zone where these changes take place is known as heat-affected zone. One of the most important aspects of welded joints is heat-affected zone in which microstructural changes takes place but melting of the workpiece doesn’t take place in this zone.
 
 Heat flow and temperature distribution analysis in welding has a vital part in understanding both the metallurgical and mechanical behaviour of welding joints. The rapid cooling rate experienced during welding causes various desired or undesired metallurgical changes. The non-uniform temperature field produced around the weld results in thermal stresses, plastic flow, consequential locked-up residual stresses, and distortion.
 During welding, the net heat input (Hnet) is calculated using the relationship shown below:
+
 $$ H_{net} =  \frac{\eta VI}{S} $$
 
 Where, 
@@ -13,7 +14,7 @@ V =Voltage,
 I=Current,
 S=Welding speed (mm/s), 
 \\( \eta \\)=fraction of heat generated and conducted to the plate.
-  
+
 # Theory
 ## Thermal cycle of welding:
 ### Thermal variation
@@ -46,7 +47,7 @@ The maximum temperature and the remaining thermal cycle reach a quasi-steady sta
 When a heat source is moving, the temperature isotherms surrounding it remain constant and appear to move with it (away from edges). The isotherms follow an elliptical shape when observed from the top, as can be seen in Figure 2.
 
 <div align="center">
-<img src="./images/Fig. 2.png" alt="">
+<img src="./images/Fig. 2.png">
 
 ***Figure 2. Diagram illustrating the development of a quasi-steady state condition in a moving heat source weld over the course of some time***
 </div>               
@@ -60,7 +61,7 @@ Time-Temperature curves can be achieved by placing thermocouples at   various eq
  - The maximum temperature separates the heating phase from the cooling phase of the welding thermal cycle.  At a certain interval of time, when points near the weld start cooling, points more distant continue to heat. This occurrence describes certain features of heat-affected zone transformation of phases, differential rate of thermal expansion and contraction which will carry to distortion and thermal stresses.
       
 <div align="center">
-<img src="./images/Fig. 3.png" alt="">
+<img src="./images/Fig. 3.png">
 
 ***Figure 3. Time-Temperature curves for a moving weld heat source***
 </div>               
@@ -69,7 +70,7 @@ Time-Temperature curves can be achieved by placing thermocouples at   various eq
 Peak temperature separates the heating & cooling zone. Peak temperature will determine the cooling rate. Points closer to peak temperature will cool fast and the points further away from the peak temperature will cool slow. Peak temperature is very important for metallurgical changes in the material.
 
 <div align="center">
-<img src="./images/Fig. 4.png" alt="">
+<img src="./images/Fig. 4.png">
 
 ***Figure 4. Temperature isotherms near the weld zone***
 </div>
