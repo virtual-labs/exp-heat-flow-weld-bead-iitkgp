@@ -5,15 +5,20 @@ Heat flow study is essential for welding applications to help us understand the 
 Despite the source's net energy is conducted to the parent material as heat, some of the heat is used to melt the metal and produce the weld. Some of heat is carried away from the deposition point, increasing the temperature of the material surrounding the fusion zone and producing undesirable   metallurgical and geometrical changes. This zone where these changes take place is known as heat-affected zone. One of the most important aspects of welded joints is heat-affected zone in which microstructural changes takes place but melting of the workpiece doesn’t take place in this zone.
 
 Heat flow and temperature distribution analysis in welding has a vital part in understanding both the metallurgical and mechanical behaviour of welding joints. The rapid cooling rate experienced during welding causes various desired or undesired metallurgical changes. The non-uniform temperature field produced around the weld results in thermal stresses, plastic flow, consequential locked-up residual stresses, and distortion.
+
 During welding, the net heat input (Hnet) is calculated using the relationship shown below:
 
 $$ H_{net} =  \frac{\eta VI}{S} $$
 
-Where, 
+Where,
+
 V =Voltage,
+
 I=Current,
+
 S=Welding speed (mm/s), 
-\\( \eta \\)=fraction of heat generated and conducted to the plate.
+
+\\( \eta \\) = fraction of heat generated and conducted to the plate.
 
 # Theory
 ## Thermal cycle of welding:
@@ -56,6 +61,8 @@ When a heat source is moving, the temperature isotherms surrounding it remain co
 ### Time-Temperature curves
       
 Time-Temperature curves can be achieved by placing thermocouples at   various equidistant points perpendicular to the direction of weld. The positions of the thermocouple are denoted by points P, Q, R as can be seen in Figure 3. While performing the experiment, as the heat source moves along the weld line, thermocouples will record temperature at each point with respect to time, thus obtaining Time-Temperature curves as shown in Figure 3. 
+
+The following observations can be seen from the Time-Temperature curves.
 
  - Peak temperature will decrease by increasing the distance from the heat source.
  - The highest temperatures reached \\( \theta_{mP}, \theta_{mQ}, \theta_{mR} \\) decreases with increasing distance from the weld centre line as a function of time \\( T_{mP}, T_{mQ}, T_{mR} \\). Plotting the peak temperature \\( \theta_{mP} \\) as a function of time is shown in Figure 3.
