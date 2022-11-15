@@ -38,6 +38,7 @@ The temperature reading by the thermocouple is plotted and it is observed that w
 <img src="./images/Fig. 1.png">
 
 ***Figure 1(a) Positioning of thermocouples along the operating heat source***
+
 ***1(b) Thermal variation created at each point***
 </center>
 
@@ -76,6 +77,7 @@ Peak temperature separates the heating & cooling zone. Peak temperature will det
 </center>
 
 ### The generalized heat flow equation:
+
 An elaborate theoretical analysis of heat flow in welding is carried out using the basic equation of heat flow by conduction in three dimensions. It was originally observed by Rosenthal that the nature of the temperature field in arc welding is quasi-stationary. It means that although the temperature at a point on the plate is changing with time if we consider the temperature isotherms remain stationary i.e., the shape of the temperature field around the arc will be the same whatever its position be. This aspect is shown in Figure 2. The theoretical analysis involves rewriting this equation of heat conduction in a moving coordinate system with the arc centre as the origin. Suitable boundary conditions for cases of thin or thick plates are imposed and a solution is obtained. Temperature does not vary along the thickness for thin plates i.e., it is two-dimensional distribution while it varies along the thickness in the case of thick plates. However, at points somewhat away from the arc, the temperature field becomes two-dimensional even for moderately thick plates.
 
 Temperature distribution along a section parallel to the weld shows a steep rise in the beginning and then gradual cooling. The peak temperature which is attained at a particular section plays an important role in deciding whether there will be metallurgical microstructural changes along this section (i.e., the size of the head affected). This information is useful in the calculation of residual stresses and distortion.
@@ -86,17 +88,25 @@ $$ \frac{1}{T_p-T_o}=\frac{4.132 * C * \rho * t * x}{H_{net}}+\frac{1}{T_m-T_o} 
 Where,
 
 \\( T_p \\) =    Peak temperature (K)
+
 \\( T_o \\)=    Ambient temperature of the workpiece (K)
+
 \\(  \rho \\) =    density of the workpiece (g/mm<sup>3</sup>)
+
 \\( C  \\) =    specific heat of the workpiece (J/g K <sup>-1</sup>)
+
 \\( t   \\)  =    workpiece thickness (mm)
+
 \\( x   \\) =    distance from weld centre line (mm)
+
 \\( T_m \\)=    Melting temperature of the workpiece (K)
+
 \\( H_{net}  =   \frac{q}{v} \\) in (J/m)
 
 Where,
 
 \\( q \\)= heat or energy (J/s)
+
 \\( v \\)= Welding speed (m/s)
 
 Peak temperature can be calculated by the above equation and the peak temperature distribution throughout the weld-centre line governs
