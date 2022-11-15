@@ -74,18 +74,18 @@ For two-dimensional case, the peak temperature over a particular transverse sect
 
 $$ \frac{1}{T_p-T_o}=\frac{4.132 * C * \rho * t * x}{H_{net}}+\frac{1}{T_m-T_o} $$ 
 
-              Where,
-             \\( T_p \\) =    Peak temperature (K) <br>
-             \\( T_o \\)=    Ambient temperature of the workpiece (K) <br>
-             \\(  \rho \\) =    density of the workpiece (g/mm<sup>3</sup>) <br>
-             \\( C  \\) =    specific heat of the workpiece (J/g K <sup>-1</sup>) <br>
-             \\( t   \\)  =    workpiece thickness (mm) <br>
-             \\( x   \\) =    distance from weld centre line (mm) <br>
-             \\( T_m \\)=    Melting temperature of the workpiece (K) <br>
-             \\( H_{net}  =   \frac{q}{v} \\) in (J/m) <br>  <br>
-             Where, <br>  \\( q \\)= heat or energy (J/s) <br>
-             \\( v \\)= Welding speed (m/s) <br> <br>
-   
+Where,
+\\( T_p \\) =    Peak temperature (K)
+\\( T_o \\)=    Ambient temperature of the workpiece (K)
+\\(  \rho \\) =    density of the workpiece (g/mm<sup>3</sup>)
+\\( C  \\) =    specific heat of the workpiece (J/g K <sup>-1</sup>)
+\\( t   \\)  =    workpiece thickness (mm)
+\\( x   \\) =    distance from weld centre line (mm)
+\\( T_m \\)=    Melting temperature of the workpiece (K)
+\\( H_{net}  =   \frac{q}{v} \\) in (J/m)
+Where,
+\\( q \\)= heat or energy (J/s)
+\\( v \\)= Welding speed (m/s)
 
 Peak temperature can be calculated by the above equation and the peak temperature distribution throughout the weld-centre line governs
 - Weld pool shape.
