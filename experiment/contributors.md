@@ -1,11 +1,23 @@
-EMPTY
-<!-- Remove all lines above this line before making changes to the file -->
 ### Subject Matter Experts
-| SNo. | Name | Email | Institute | ID |
+| SNo. | Name | Email | Institute | Profile |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | name | email | institute | id |
+| 1 | **Prof. C S Kumar** | **kumar@mech.iitkgp.ac.in** | **Indian Institute of Technology Kharagpur** | ***[Profile](http://facweb.iitkgp.ernet.in/~cskumar/)*** |
+| 2 | **Prof. Siddharth Tamang** | **stamang@mech.iitkgp.ac.in** | **Indian Institute of Technology Kharagpur** | ***[Profile](http://www.iitkgp.ac.in/department/ME/faculty/me-stamang)*** |
+
 
 ### Developers
-| SNo. | Name | Email | Institute | ID |
+| SrNo | Name | VLabs Developer or Integration Engineer | Designation | Department| Institute |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | name | email | institute | id |
+| 1 | **Aditya Kameswara Rao Nandula** | Developer or Integration Engineer | Senior Project Officer | Department of Mechanical Engineering | IIT Kharagpur |
+| 2 | **Sujata Madke** | Developer or Integration Engineer | Senior Project Officer | Department of Mechanical Engineering | IIT Kharagpur |
+
+
+### Contributors List
+| SrNo | Name | Degree | Department | Institute |
+| :--|:--|:--|:--|:--|:--|
+| 1 | **Vishal Mishra** | Ph.D. | Mechanical Engineering Department | IIT Kharagpur |
+| 2 | **Gaddam Kranthikumar** | Ph.D. | Mechanical Engineering Department | IIT Kharagpur |
+| 3 | **Manne Siva Krishna** | M.Tech | Mechanical Engineering Department | IIT Kharagpur |
+| 4 | **Vikas Kumar Bairwa** | B.Tech | Mechanical Engineering Department | IIT Kharagpur |
+| 5 | **Gujjari Shiva Kumar** | B.Tech | Mechanical Engineering Department | IIT Kharagpur |
+| 6 | **Ashwin Kumar** | B.Tech | Mechanical Engineering Department | IIT Kharagpur |
