@@ -1,18 +1,18 @@
 ## Procedure
 - Before starting the process read the instructions completely
-- Press Start button to start the simulator.
-- Select the type of welding speed 2 mm/s or 4 mm/s .
-- Observe the Temperature Vs Time plot.
+- Press **Start** button to start the simulator.
+- Select the type of welding speed ***2 mm/s*** or ***4 mm/s*** .
+- Observe the ***Temperature Vs Time*** plot.
 - Hover on the plot to see the temparature variation with time.
-- Below the plot observe the Peak temperature values.
-- Click on the Stop button to stop the simulation.
+- Below the plot observe the ***Peak temperature*** values.
+- Click on the ***Stop*** button to stop the simulation.
 
 ## Discussion:
 Calculate the peak temperature by using the following formula.
 
-$$ \frac{1}{T_p-T_o}=\frac{4.132*C*\rho *t*x}{H_{net}}+\frac{1}{T_m-T_o} $$ <br><br>
+$$ \frac{1}{T_p-T_o}=\frac{4.132*C*\rho *t*x}{H_{net}}+\frac{1}{T_m-T_o} $$
 
-              Where,<br>
+              Where,
              \\( T_p \\) =    Peak temperature (K) <br>
              \\( T_o \\)=    Ambient temperature of the workpiece (K) <br>
              \\(  \rho \\) =    density of the workpiece (g/mm<sup>3</sup>) <br>
@@ -26,7 +26,7 @@ $$ \frac{1}{T_p-T_o}=\frac{4.132*C*\rho *t*x}{H_{net}}+\frac{1}{T_m-T_o} $$ <br>
    
 Compare the peak temperature obtained from the formula with Virtual experimental result <br><br>
 
-     Take material as mild steel<br>
+     Take material as mild steel
      \\(  t = 6 mm \\)<br>
      \\( T_o= 298K\\)<br>
      \\( \rho = 0.008 g/mm^3 \\)<br>
