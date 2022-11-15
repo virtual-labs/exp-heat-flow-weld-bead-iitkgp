@@ -60,12 +60,12 @@ Time-Temperature curves can be achieved by placing thermocouples at   various eq
  - Peak temperature will decrease by increasing the distance from the heat source.
  - The highest temperatures reached \\( \theta_{mP}, \theta_{mQ}, \theta_{mR} \\) decreases with increasing distance from the weld centre line as a function of time \\( T_{mP}, T_{mQ}, T_{mR} \\). Plotting the peak temperature \\( \theta_{mP} \\) as a function of time is shown in Figure 3.
  - The maximum temperature separates the heating phase from the cooling phase of the welding thermal cycle.  At a certain interval of time, when points near the weld start cooling, points more distant continue to heat. This occurrence describes certain features of heat-affected zone transformation of phases, differential rate of thermal expansion and contraction which will carry to distortion and thermal stresses.
-      
+
 <center>
 <img src="./images/Fig. 3.png">
 
 ***Figure 3. Time-Temperature curves for a moving weld heat source***
-</center>             
+</center>
 
 ### Spatial isotherms
 Peak temperature separates the heating & cooling zone. Peak temperature will determine the cooling rate. Points closer to peak temperature will cool fast and the points further away from the peak temperature will cool slow. Peak temperature is very important for metallurgical changes in the material.

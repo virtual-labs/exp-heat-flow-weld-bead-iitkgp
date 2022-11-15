@@ -7,8 +7,8 @@
 ### Developers
 | SrNo | Name | VLabs Developer or Integration Engineer | Designation | Department| Institute |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | **Aditya Kameswara Rao Nandula** | Developer or Integration Engineer | Senior Project Officer | Department of Mechanical Engineering | IIT Kharagpur |
-| 2 | **Sujata Madke** | Developer or Integration Engineer | Senior Project Officer | Department of Mechanical Engineering | IIT Kharagpur |
+| 1 | **Aditya Kameswara Rao Nandula** | Developer and Integration Engineer | Senior Project Officer | Department of Mechanical Engineering | IIT Kharagpur |
+| 2 | **Sujata Madke** | Developer and Integration Engineer | Senior Project Officer | Department of Mechanical Engineering | IIT Kharagpur |
 
 ### Contributors List
 | SrNo | Name | Degree | Department | Institute |
