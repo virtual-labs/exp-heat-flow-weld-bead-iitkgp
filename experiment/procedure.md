@@ -24,7 +24,7 @@ $$ \frac{1}{T_p-T_o}=\frac{4.132*C*\rho *t*x}{H_{net}}+\frac{1}{T_m-T_o} $$
              Where, <br>  \\( q \\)= heat or energy (J/s) <br>
              \\( v \\)= Welding speed (m/s) <br> <br>
    
-Compare the peak temperature obtained from the formula with Virtual experimental result <br><br>
+Compare the peak temperature obtained from the formula with Virtual experimental result 
 
      Take material as mild steel
      \\(  t = 6 mm \\)<br>
