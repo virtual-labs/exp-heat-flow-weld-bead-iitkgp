@@ -10,7 +10,7 @@
 ## Discussion:
 Calculate the peak temperature by using the following formula.
 
-$$ \frac{1}{T_p-T_o}=\frac{4.132*C*\rho *t*x}{H_{net}}+\frac{1}{T_m-T_o} $$
+$$ \frac{1}{T_p-T_o}=\frac{4.132* C * \rho * t * x}{H_{net}}+\frac{1}{T_m-T_o} $$
 
               Where,
              \\( T_p \\) =    Peak temperature (K) <br>
