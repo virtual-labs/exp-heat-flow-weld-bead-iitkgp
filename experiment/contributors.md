@@ -5,8 +5,8 @@
 | 2 | **Prof. Siddharth Tamang** | **stamang@mech.iitkgp.ac.in** | **Indian Institute of Technology Kharagpur** | ***[Profile](http://www.iitkgp.ac.in/department/ME/faculty/me-stamang)*** |
 
 ## Developer and Integration Engineer
-| SrNo | Name | Designation | Department| Institute |
-| :---: | :---: | :---: | :---: | :---: | :---: |
+| SrNo | Name | Designation | Department | Institute |
+| :---: | :---: | :---: | :---: | :---: |
 | 1 | **Aditya Kameswara Rao Nandula** | Senior Project Officer | Department of Mechanical Engineering | IIT Kharagpur |
 | 2 | **Sujata Madke** | Research Engineer | Department of Mechanical Engineering | IIT Kharagpur |
 
