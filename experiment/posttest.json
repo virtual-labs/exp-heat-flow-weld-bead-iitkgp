@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Calculate the heat input for the following parameters <br> Voltage = 24V <br> Current = 100A <br> Welding speed = 2 mm/sec <script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>",
+      "question": "Calculate the heat input for the following parameters <br> Voltage = 24V <br> Current = 100A <br> Welding speed = 2 mm/sec ",
       "answers": {
         "a": "1400J/mm",
         "b": "1200J/mm",
