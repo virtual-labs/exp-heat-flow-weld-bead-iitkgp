@@ -6,7 +6,7 @@ Despite the source's net energy is conducted to the parent material as heat, som
 
 Heat flow and temperature distribution analysis in welding has a vital part in understanding both the metallurgical and mechanical behaviour of welding joints. The rapid cooling rate experienced during welding causes various desired or undesired metallurgical changes. The non-uniform temperature field produced around the weld results in thermal stresses, plastic flow, consequential locked-up residual stresses, and distortion.
 
-During welding, the net heat input (Hnet) is calculated using the relationship shown below:
+During welding, the net heat input H<sub>net</sub> is calculated using the relationship shown below:
 
 $$ H_{net} =  \frac{\eta VI}{S} $$
 
@@ -18,7 +18,7 @@ I=Current,
 
 S=Welding speed (mm/s), 
 
-\\( \eta \\) = fraction of heat generated and conducted to the plate.
+η = fraction of heat generated and conducted to the plate.
 
 # Theory
 ## Thermal cycle of welding:
@@ -40,7 +40,7 @@ In order to find the thermal cycle undergone by a weld bead, experiment can be p
 The temperature reading by the thermocouple is plotted and it is observed that while the heat source moves along the path of the weld, the temperature rapidly rises to a peak. The peak temperature is held for a very short time, followed by a temperature drop once the heat source passed by the thermocouple. This variation in the temperature can be seen clearly in the graph shown below Figure 1b.
 
 <center>
-<img src="./images/Fig. 1.png">
+<img src="./images/Fig. 1.png" style="width:50%">
 
 ***Figure 1(a) Positioning of thermocouples along the operating heat source***
 
@@ -53,7 +53,7 @@ The maximum temperature and the remaining thermal cycle reach a quasi-steady sta
 When a heat source is moving, the temperature isotherms surrounding it remain constant and appear to move with it (away from edges). The isotherms follow an elliptical shape when observed from the top, as can be seen in Figure 2.
 
 <center>
-<img src="./images/Fig. 2.png">
+<img src="./images/Fig. 2.png" style="width:50%">
 
 ***Figure 2. Diagram illustrating the development of a quasi-steady state condition in a moving heat source weld over the course of some time***
 </center>               
@@ -69,7 +69,7 @@ The following observations can be seen from the Time-Temperature curves.
  - The maximum temperature separates the heating phase from the cooling phase of the welding thermal cycle.  At a certain interval of time, when points near the weld start cooling, points more distant continue to heat. This occurrence describes certain features of heat-affected zone transformation of phases, differential rate of thermal expansion and contraction which will carry to distortion and thermal stresses.
 
 <center>
-<img src="./images/Fig. 3.png">
+<img src="./images/Fig. 3.png" style="width:50%">
 
 ***Figure 3. Time-Temperature curves for a moving weld heat source***
 </center>
@@ -78,7 +78,7 @@ The following observations can be seen from the Time-Temperature curves.
 Peak temperature separates the heating & cooling zone. Peak temperature will determine the cooling rate. Points closer to peak temperature will cool fast and the points further away from the peak temperature will cool slow. Peak temperature is very important for metallurgical changes in the material.
 
 <center>
-<img src="./images/Fig. 4.png">
+<img src="./images/Fig. 4.png" style="width:50%">
 
 ***Figure 4. Temperature isotherms near the weld zone***
 </center>
