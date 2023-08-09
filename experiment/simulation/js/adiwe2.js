@@ -69,15 +69,6 @@ function grp(gda,xmax,ymax){
         showticklabels: true,
         autotick: true,
         showgrid: true,
-        gridcolor: '#bdbdbd',
-        gridwidth: 1,
-        zerolinecolor: '#969696',
-        zerolinewidth: 3,
-        linecolor: '#636363',
-        linewidth: 1,
-        zeroline: true,
-        showline: true,
-        mirror: 'ticks',
         range: [
             0,
             xmax
@@ -87,15 +78,6 @@ function grp(gda,xmax,ymax){
         showticklabels: true,
         autotick: true,
         showgrid: true,
-        gridcolor: '#bdbdbd',
-        gridwidth: 1,
-        zerolinecolor: '#969696',
-        zerolinewidth: 3,
-        linecolor: '#636363',
-        linewidth: 1,
-        zeroline: true,
-        showline: true,
-        mirror: 'ticks',
         range: [
             0,
             ymax
