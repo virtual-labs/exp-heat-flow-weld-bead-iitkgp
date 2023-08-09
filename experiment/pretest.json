@@ -9,12 +9,6 @@
         "c": "Both a & b",
         "d": "None of the Above"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -23,10 +17,6 @@
       "answers": {
         "a": "True",
         "b": "False"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -39,12 +29,6 @@
         "c": "Steel",
         "d": "Aluminium"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },    
@@ -53,10 +37,6 @@
       "answers": {
         "a": "Increase",
         "b": "Decrease"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -67,12 +47,6 @@
         "b": "Voltage",
         "c": "Welding speed",
         "d": "All  of the Above"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
