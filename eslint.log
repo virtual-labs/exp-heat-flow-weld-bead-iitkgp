@@ -1,0 +1,36 @@
+
+/home/runner/work/exp-heat-flow-weld-bead-iitkgp/exp-heat-flow-weld-bead-iitkgp/experiment/license/view.js
+  1:246  warning  Unnecessary semicolon  no-extra-semi
+
+/home/runner/work/exp-heat-flow-weld-bead-iitkgp/exp-heat-flow-weld-bead-iitkgp/experiment/simulation/js/adiwe2.js
+    3:5   warning  'Plotly' is not defined    no-undef
+    6:13  warning  'row' is not defined       no-undef
+    7:25  warning  'row' is not defined       no-undef
+    8:19  warning  'row' is not defined       no-undef
+    9:19  warning  'row' is not defined       no-undef
+   10:19  warning  'row' is not defined       no-undef
+   18:9   warning  '$' is not defined         no-undef
+   19:9   warning  '$' is not defined         no-undef
+   20:9   warning  '$' is not defined         no-undef
+   22:1   warning  'Plotly' is not defined    no-undef
+   25:9   warning  'row' is not defined       no-undef
+   26:21  warning  'row' is not defined       no-undef
+   27:15  warning  'row' is not defined       no-undef
+   28:15  warning  'row' is not defined       no-undef
+   29:15  warning  'row' is not defined       no-undef
+   49:9   warning  'data' is already defined  no-redeclare
+   52:2   warning  Unnecessary semicolon      no-extra-semi
+   55:5   warning  'gr' is not defined        no-undef
+   86:5   warning  'Plotly' is not defined    no-undef
+   86:20  warning  'gr' is not defined        no-undef
+   89:1   warning  '$' is not defined         no-undef
+   95:9   warning  '$' is not defined         no-undef
+   96:9   warning  '$' is not defined         no-undef
+   97:9   warning  'ch' is not defined        no-undef
+  101:9   warning  '$' is not defined         no-undef
+  102:9   warning  '$' is not defined         no-undef
+  106:2   warning  Unnecessary semicolon      no-extra-semi
+
+✖ 28 problems (0 errors, 28 warnings)
+  0 errors and 3 warnings potentially fixable with the `--fix` option.
+
