@@ -9,7 +9,7 @@
         "c": "1000J/mm",
         "d": "1600J/mm"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"Your are Wrong, Option \"b\" is correct answer",
         "b":"You are right",
         "c":"Your are Wrong, Option \"b\" is correct answer",
@@ -26,7 +26,7 @@
         "c": "Radiation",
         "d": "None of the above"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"You are right",
         "b":"Your are Wrong, Option \"a\" is correct answer",
         "c":"Your are Wrong, Option \"a\" is correct answer",
@@ -41,7 +41,7 @@
         "a": "True",
         "b": "False"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"You are right",
         "b":"Your are Wrong, Option \"a\" is correct answer"
       },
@@ -56,7 +56,7 @@
         "c": "343J/mm",
         "d": "390J/mm"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"Your are Wrong, Option \"c\" is correct answer",
         "b":"Your are Wrong, Option \"c\" is correct answer",
         "c":"You are right",
@@ -72,7 +72,7 @@
         "b": "Decrease",
         "c": "Remain same"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"Your are Wrong, Option \"b\" is correct answer",
         "b":"You are right",
         "c":"Your are Wrong, Option \"b\" is correct answer"
@@ -88,7 +88,7 @@
         "c": "Thermal properties of base metal",
         "d": "All of the above"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"Your are Wrong, Option \"d\" is correct answer",
         "b":"Your are Wrong, Option \"d\" is correct answer",
         "c":"Your are Wrong, Option \"d\" is correct answer",
@@ -103,7 +103,7 @@
         "a": "True",
         "b": "False"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"You are right",
         "b":"Your are Wrong, Option \"a\" is correct answer"
       },
@@ -118,7 +118,7 @@
         "c": "1073K",
         "d": "1055K"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"Your are Wrong, Option \"c\" is correct answer",
         "b":"Your are Wrong, Option \"c\" is correct answer",
         "c":"You are right",

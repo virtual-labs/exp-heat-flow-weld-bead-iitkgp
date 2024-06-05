@@ -9,7 +9,7 @@
         "c": "Both a & b",
         "d": "None of the Above"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"Your are Wrong, Option \"c\" is correct answer",
         "b":"Your are Wrong, Option \"c\" is correct answer",
         "c":"You are right",
@@ -24,7 +24,7 @@
         "a": "True",
         "b": "False"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"You are right",
         "b":"Your are Wrong, Option \"a\" is correct answer",
         "c":"Your are Wrong, Option \"a\" is correct answer",
@@ -41,7 +41,7 @@
         "c": "Steel",
         "d": "Aluminium"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"You are right",
         "b":"Your are Wrong, Option \"a\" is correct answer",
         "c":"Your are Wrong, Option \"a\" is correct answer",
@@ -56,7 +56,7 @@
         "a": "Increase",
         "b": "Decrease"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"Your are Wrong, Option \"b\" is correct answer",
         "b":"You are right"
       },
@@ -70,7 +70,7 @@
         "c": "Welding speed",
         "d": "All  of the Above"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"Your are Wrong, Option \"d\" is correct answer",
         "b":"Your are Wrong, Option \"d\" is correct answer",
         "c":"Your are Wrong, Option \"d\" is correct answer",
