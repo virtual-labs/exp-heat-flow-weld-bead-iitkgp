@@ -1,0 +1,118 @@
+
+/home/runner/work/exp-heat-flow-weld-bead-iitkgp/exp-heat-flow-weld-bead-iitkgp/experiment/license/view.js
+  1:246  warning  Unnecessary semicolon  no-extra-semi
+
+/home/runner/work/exp-heat-flow-weld-bead-iitkgp/exp-heat-flow-weld-bead-iitkgp/experiment/simulation/Simulation_New_2/js/adiwe2.js
+   10:5   warning  'Plotly' is not defined    no-undef
+   13:13  warning  'row' is not defined       no-undef
+   14:25  warning  'row' is not defined       no-undef
+   15:19  warning  'row' is not defined       no-undef
+   16:19  warning  'row' is not defined       no-undef
+   17:19  warning  'row' is not defined       no-undef
+   25:9   warning  '$' is not defined         no-undef
+   26:9   warning  '$' is not defined         no-undef
+   27:9   warning  '$' is not defined         no-undef
+   29:1   warning  'Plotly' is not defined    no-undef
+   32:9   warning  'row' is not defined       no-undef
+   33:21  warning  'row' is not defined       no-undef
+   34:15  warning  'row' is not defined       no-undef
+   35:15  warning  'row' is not defined       no-undef
+   36:15  warning  'row' is not defined       no-undef
+   56:9   warning  'data' is already defined  no-redeclare
+   59:2   warning  Unnecessary semicolon      no-extra-semi
+   62:5   warning  'gr' is not defined        no-undef
+  111:5   warning  'Plotly' is not defined    no-undef
+  111:20  warning  'gr' is not defined        no-undef
+  112:2   warning  Unnecessary semicolon      no-extra-semi
+  114:1   warning  '$' is not defined         no-undef
+  120:9   warning  '$' is not defined         no-undef
+  121:9   warning  '$' is not defined         no-undef
+  122:9   warning  'ch' is not defined        no-undef
+  126:9   warning  '$' is not defined         no-undef
+  128:13  warning  '$' is not defined         no-undef
+  129:13  warning  '$' is not defined         no-undef
+  131:13  warning  '$' is not defined         no-undef
+  133:17  warning  '$' is not defined         no-undef
+  134:17  warning  '$' is not defined         no-undef
+  135:17  warning  '$' is not defined         no-undef
+  139:13  warning  '$' is not defined         no-undef
+  140:13  warning  '$' is not defined         no-undef
+  142:13  warning  '$' is not defined         no-undef
+  144:17  warning  '$' is not defined         no-undef
+  145:17  warning  '$' is not defined         no-undef
+  146:17  warning  '$' is not defined         no-undef
+  151:2   warning  Unnecessary semicolon      no-extra-semi
+
+/home/runner/work/exp-heat-flow-weld-bead-iitkgp/exp-heat-flow-weld-bead-iitkgp/experiment/simulation/js/adiwe2.js
+    3:5   warning  'Plotly' is not defined    no-undef
+    6:13  warning  'row' is not defined       no-undef
+    7:25  warning  'row' is not defined       no-undef
+    8:19  warning  'row' is not defined       no-undef
+    9:19  warning  'row' is not defined       no-undef
+   10:19  warning  'row' is not defined       no-undef
+   18:9   warning  '$' is not defined         no-undef
+   19:9   warning  '$' is not defined         no-undef
+   20:9   warning  '$' is not defined         no-undef
+   22:1   warning  'Plotly' is not defined    no-undef
+   25:9   warning  'row' is not defined       no-undef
+   26:21  warning  'row' is not defined       no-undef
+   27:15  warning  'row' is not defined       no-undef
+   28:15  warning  'row' is not defined       no-undef
+   29:15  warning  'row' is not defined       no-undef
+   49:9   warning  'data' is already defined  no-redeclare
+   52:2   warning  Unnecessary semicolon      no-extra-semi
+   55:5   warning  'gr' is not defined        no-undef
+   86:5   warning  'Plotly' is not defined    no-undef
+   86:20  warning  'gr' is not defined        no-undef
+   89:1   warning  '$' is not defined         no-undef
+   95:9   warning  '$' is not defined         no-undef
+   96:9   warning  '$' is not defined         no-undef
+   97:9   warning  'ch' is not defined        no-undef
+  101:9   warning  '$' is not defined         no-undef
+  102:9   warning  '$' is not defined         no-undef
+  106:2   warning  Unnecessary semicolon      no-extra-semi
+
+/home/runner/work/exp-heat-flow-weld-bead-iitkgp/exp-heat-flow-weld-bead-iitkgp/experiment/simulation/simulation_New/js/adiwe2.js
+   10:5   warning  'Plotly' is not defined    no-undef
+   13:13  warning  'row' is not defined       no-undef
+   14:25  warning  'row' is not defined       no-undef
+   15:19  warning  'row' is not defined       no-undef
+   16:19  warning  'row' is not defined       no-undef
+   17:19  warning  'row' is not defined       no-undef
+   25:9   warning  '$' is not defined         no-undef
+   26:9   warning  '$' is not defined         no-undef
+   27:9   warning  '$' is not defined         no-undef
+   29:1   warning  'Plotly' is not defined    no-undef
+   32:9   warning  'row' is not defined       no-undef
+   33:21  warning  'row' is not defined       no-undef
+   34:15  warning  'row' is not defined       no-undef
+   35:15  warning  'row' is not defined       no-undef
+   36:15  warning  'row' is not defined       no-undef
+   56:9   warning  'data' is already defined  no-redeclare
+   59:2   warning  Unnecessary semicolon      no-extra-semi
+   62:5   warning  'gr' is not defined        no-undef
+  111:5   warning  'Plotly' is not defined    no-undef
+  111:20  warning  'gr' is not defined        no-undef
+  112:2   warning  Unnecessary semicolon      no-extra-semi
+  114:1   warning  '$' is not defined         no-undef
+  120:9   warning  '$' is not defined         no-undef
+  121:9   warning  '$' is not defined         no-undef
+  122:9   warning  'ch' is not defined        no-undef
+  126:9   warning  '$' is not defined         no-undef
+  128:13  warning  '$' is not defined         no-undef
+  129:13  warning  '$' is not defined         no-undef
+  131:13  warning  '$' is not defined         no-undef
+  133:17  warning  '$' is not defined         no-undef
+  134:17  warning  '$' is not defined         no-undef
+  135:17  warning  '$' is not defined         no-undef
+  139:13  warning  '$' is not defined         no-undef
+  140:13  warning  '$' is not defined         no-undef
+  142:13  warning  '$' is not defined         no-undef
+  144:17  warning  '$' is not defined         no-undef
+  145:17  warning  '$' is not defined         no-undef
+  146:17  warning  '$' is not defined         no-undef
+  151:2   warning  Unnecessary semicolon      no-extra-semi
+
+✖ 106 problems (0 errors, 106 warnings)
+  0 errors and 9 warnings potentially fixable with the `--fix` option.
+
