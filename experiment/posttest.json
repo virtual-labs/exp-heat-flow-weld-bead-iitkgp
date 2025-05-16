@@ -9,6 +9,12 @@
         "c": "1000J/mm",
         "d": "1600J/mm"
       },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -20,6 +26,12 @@
         "c": "Radiation",
         "d": "None of the above"
       },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -28,6 +40,10 @@
       "answers": {
         "a": "True",
         "b": "False"
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -40,6 +56,12 @@
         "c": "343J/mm",
         "d": "390J/mm"
       },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -49,6 +71,11 @@
         "a": "Increase",
         "b": "Decrease",
         "c": "Remain same"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -61,6 +88,12 @@
         "c": "Thermal properties of base metal",
         "d": "All of the above"
       },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -69,6 +102,10 @@
       "answers": {
         "a": "True",
         "b": "False"
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -80,6 +117,12 @@
         "b": "980K",
         "c": "1073K",
         "d": "1055K"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
