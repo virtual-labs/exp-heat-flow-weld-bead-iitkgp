@@ -1,106 +1,118 @@
-function da(fil){
-    var ymax=0,xmax=0;
-    Plotly.d3.csv(fil, function(dat){ 
-        var t = [], y1 = [], y2 = [], y3 = [];
-        for (var i=0; i<dat.length; i++) {
-            row = dat[i];
-            t[i]=Number(row['X_Value']);
-            y1[i]=row['Temperature_1'];
-            y2[i]=row['Temperature_0'];
-            y3[i]=row['Temperature_2'];
-          }
-        t.sort(function(a,b){return a-b;});
-        y1.sort(function(a,b){return a-b;});
-        y2.sort(function(a,b){return a-b;});
-        y3.sort(function(a,b){return a-b;});
-        xmax=Math.round(Number(t[t.length-1])+10);
-        ymax=Math.round(Math.max(Number(y1[y1.length-1]),Number(y2[y2.length-1]),Number(y3[y3.length-1]))+10);
-        $('#temp1').text(Number(y1[y1.length-1]));
-        $('#temp2').text(Number(y2[y2.length-1]));
-        $('#temp3').text(Number(y3[y3.length-1]));
-    });
-Plotly.d3.csv(fil, function(data){ 
-    var t = [], y1 = [], y2 = [], y3 = [];
-    for (var i=0; i<data.length; i++) {
-        row = data[i];
-        t[i]=Number(row['X_Value']);
-        y1[i]=row['Temperature_1'];
-        y2[i]=row['Temperature_0'];
-        y3[i]=row['Temperature_2'];
-      }
-    var g1 = {
-        x: t,
-        y: y1,
-        type: 'scatter',
-        name: 'Temp 1'
-        };
-    var g2 = {
-            x: t,
-            y: y2,
-            type: 'scatter',
-            name: 'Temp 2'
-            };
-    var g3 = {
-            x: t,
-            y: y3,
-            type: 'scatter',
-            name: 'Temp 3'
-            };
-    var data = [g1,g2,g3];
-    grp(data,xmax,ymax);
+/**
+ This Scrtpt file is developed by
+Aditya Kameswara Rao Nandula
+Senior Project Scientist,
+Virtual Labs IIT Kharagpur.
+LinkedIn: https://in.linkedin.com/in/akraonandula/
+ */
+function da(fil,n){
+
+    var adi=d3.csv(fil, d3.autoType).then(data => {
+  const Xv = data.map(row => row.X_Value);
+  const t1 = data.map(row => row.Temperature_1);
+  const t2 = data.map(row => row.Temperature_0);
+  const t3 = data.map(row => row.Temperature_2);
+adin(Xv,t1,t2,t3,n);
 });
+
+function adin(Xv, t1, t2, t3,n) {
+    
+    var minXv = Math.round(Math.min(...Xv));
+    var maxXv = Math.round(Math.max(...Xv));
+    var minT1 = Math.min(...t1);
+    var maxT1 = Math.max(...t1);
+    var minT2 = Math.min(...t2);
+    var maxT2 = Math.max(...t2);
+    var minT3 = Math.min(...t3);
+    var maxT3 = Math.max(...t3);
+    var miny = Math.round(Math.min(minT1, minT2, minT3));
+    var maxy = Math.round(Math.max(maxT1, maxT2, maxT3));
+    let x=[];
+    let y1=[];
+    let y2=[];
+    let y3=[];
+    let i=0;
+    var lay= { title: {text: 'Temperature Vs Time', font: { size: 20 } },
+                xaxis: { range: [minXv-20, maxXv+20],showgrid: true, title: {text:'Time (s)' },   },
+                yaxis: { range: [miny-10, maxy+10], showgrid: true, title: {text:'Temperature (<sup>o</sup>C)'}, },
+                showlegend: true,
+                legend: {  xanchor: 'right', yanchor: 'top', font: { size: 20 }},
+                //legend: { orientation: 'h',  x: 0.5,  y: 1.2, xanchor: 'center' , },
+            };
+  var dat=[{ x: x, y: y1, type: 'scatter', mode: 'lines', line: {color: 'green'}, name: 'Temp 1' },
+{ x: x, y: y2, type: 'scatter', mode: 'lines', line: {color: 'red'}, name: 'Temp 2'  },
+{ x: x, y: y3, type: 'scatter', mode: 'lines', line: {color: 'blue'}, name: 'Temp 3'  }];
+Plotly.newPlot('grphn', dat, lay);
+requestAnimationFrame(pltudt);
+function adi(Xva, T1, T2, T3) {
+   x.push(Xva);
+    y1.push(T1);
+    y2.push(T2);
+    y3.push(T3); }
+
+function pltudt()   {
+    if (i < Xv.length) {
+    adi(Xv[i], t1[i], t2[i], t3[i]);
+    Plotly.newPlot('grphn', dat, lay);
+    requestAnimationFrame(pltudt);
+    
+i=i+n;
+}   
+}
+
+
+        $('#temp1').text(Number(maxT1));
+        $('#temp2').text(Number(maxT2));
+        $('#temp3').text(Number(maxT3));
+Plotly.newPlot('grphn', dat, lay);
+
+
+}
+
 };
 
-function grp(gda,xmax,ymax){
-    gr = document.getElementById('grph');
-    var layout={title: 'Temperature Vs Time',showlegend: true,
-    legend: {
-      x: 1,
-      xanchor: 'right',
-      y: 1
-    },
-    font: {
-        family: 'Courier New, monospace',
-        size: 15,
-        color: 'black'
-        },
-    xaxis: {
-        title:'Time (s)',
-        showticklabels: true,
-        autotick: true,
-        showgrid: true,
-        range: [
-            0,
-            xmax
-          ] },
-    yaxis: {
-        title:'Temprature (<sup>o</sup>C)',
-        showticklabels: true,
-        autotick: true,
-        showgrid: true,
-        range: [
-            0,
-            ymax
-          ] }
-    };
-    Plotly.newPlot(gr, gda, layout);
-}
 
 $(document).ready(function(){
     adiwe2(0);
+  
 });
 function adiwe2(a){
     if(a==0)
     {
-        $("#grph").hide();
-        $("#grpt").hide();    
+        //$("#adiv").hide();
+        $("#adiv").html("<div class=\"col-sm-12\"><img width=\"100%\" id=\"adivid\" src=\"./images/P1.png\" /></div>");
+        //$("#adipc").hide();
+        $("#adipl").hide();
         ch=0;
+    
     }
     else
     {
-        $("#grph").show();
-        $("#grpt").show();
-        if(a==1){da("./2mm_sec.csv");}else if(a==2){da("./4mm_sec.csv");}
+//            $("#adiv").show();
+  //          $("#adipc").show();
+            
+        if(a==1){
+            $("#adipl").hide();
+            da("./2mm_sec.csv",Number(5));
+            $("#adiv").html("<div class=\"col-sm-12\"><video width=\"100%\" autoplay muted id=\"adivid\"> <source src=\"./images/Weld2.mp4\" type=\"video/mp4\"> </video> </div>");
+            document.getElementById("adivid").playbackRate = 0.5;
+            document.getElementById("adivid").onended=function(){
+                $("#adiv").html("<div class=\"col-sm-12\"><img width=\"100%\" id=\"adivid\" src=\"./images/P2.png\" /></div>");
+                $("#adipl").show();
+                $("#adi4mm").show();
+            };
+        }
+        else if(a==2){
+            $("#adipl").hide();
+            da("./4mm_sec.csv",Number(6));
+            $("#adiv").html("<div class=\"col-sm-12\"><video width=\"100%\" autoplay muted id=\"adivid\"> <source src=\"./images/Weld2.mp4\" type=\"video/mp4\"> </video> </div>");
+            document.getElementById("adivid").playbackRate = 1.5;
+            document.getElementById("adivid").onended=function(){
+                $("#adiv").html("<div class=\"col-sm-12\"><img width=\"100%\" id=\"adivid\" src=\"./images/P2.png\" /></div>");
+                $("#adipl").show();
+                $("#adi2mm").show();
+            }
+        }
     }
 
 };
