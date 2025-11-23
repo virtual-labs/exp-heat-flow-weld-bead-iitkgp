@@ -79,20 +79,18 @@ $(document).ready(function(){
 function adiwe2(a){
     if(a==0)
     {
-        //$("#adiv").hide();
         $("#adiv").html("<div class=\"col-sm-12\"><img width=\"100%\" id=\"adivid\" src=\"./images/P1.png\" /></div>");
-        //$("#adipc").hide();
+        $("#adiv").show();
         $("#adipl").hide();
         ch=0;
     
     }
     else
     {
-//            $("#adiv").show();
-  //          $("#adipc").show();
-            
         if(a==1){
+            $("#adis").hide();
             $("#adipl").hide();
+            $("#adig").show();
             da("./2mm_sec.csv",Number(5));
             $("#adiv").html("<div class=\"col-sm-12\"><video width=\"100%\" autoplay muted id=\"adivid\"> <source src=\"./images/Weld2.mp4\" type=\"video/mp4\"> </video> </div>");
             document.getElementById("adivid").playbackRate = 0.5;
@@ -103,7 +101,9 @@ function adiwe2(a){
             };
         }
         else if(a==2){
+            $("#adis").hide();
             $("#adipl").hide();
+            $("#adig").show();
             da("./4mm_sec.csv",Number(6));
             $("#adiv").html("<div class=\"col-sm-12\"><video width=\"100%\" autoplay muted id=\"adivid\"> <source src=\"./images/Weld2.mp4\" type=\"video/mp4\"> </video> </div>");
             document.getElementById("adivid").playbackRate = 1.5;
