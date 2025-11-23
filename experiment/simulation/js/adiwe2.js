@@ -79,6 +79,7 @@ $(document).ready(function(){
 function adiwe2(a){
     if(a==0)
     {
+        $("#adism").hide();
         $("#adiv").html("<div class=\"col-sm-12\"><img width=\"100%\" id=\"adivid\" src=\"./images/P1.png\" /></div>");
         $("#adiv").show();
         $("#adipl").hide();
@@ -89,6 +90,7 @@ function adiwe2(a){
     {
         if(a==1){
             $("#adis").hide();
+            $("#adism").show();
             $("#adipl").hide();
             $("#adig").show();
             da("./2mm_sec.csv",Number(5));
@@ -102,6 +104,7 @@ function adiwe2(a){
         }
         else if(a==2){
             $("#adis").hide();
+            $("#adism").show();
             $("#adipl").hide();
             $("#adig").show();
             da("./4mm_sec.csv",Number(6));
