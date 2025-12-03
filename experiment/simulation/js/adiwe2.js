@@ -59,11 +59,9 @@ function pltudt()   {
 i=i+n;
 }   
 }
-
-
-        $('#temp1').text(Number(maxT1));
-        $('#temp2').text(Number(maxT2));
-        $('#temp3').text(Number(maxT3));
+        $('#temp1').text(Number(maxT1.toFixed(2)));
+        $('#temp2').text(Number(maxT2.toFixed(2)));
+        $('#temp3').text(Number(maxT3.toFixed(2)));
 Plotly.newPlot('grphn', dat, lay);
 
 
