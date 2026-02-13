@@ -92,7 +92,7 @@ function adiwe2(a){
             $("#adipl").hide();
             $("#adig").show();
             $("#adiv").html("<div class=\"col-sm-12\"><video width=\"100%\" autoplay id=\"adivid\"> <source src=\"./images/Weld2.mp4\" type=\"video/mp4\"> </video> </div>");
-            document.getElementById("adivid").playbackRate = 1.0;
+            document.getElementById("adivid").playbackRate = 1.15;
             da("./2mm_sec.csv",Number(4));
             document.getElementById("adivid").onended=function(){
                 $("#adiv").html("<div class=\"col-sm-12\"><img width=\"100%\" id=\"adivid\" src=\"./images/P2.png\" /></div>");
