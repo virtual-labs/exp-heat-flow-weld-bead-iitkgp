@@ -91,9 +91,9 @@ function adiwe2(a){
             $("#adism").show();
             $("#adipl").hide();
             $("#adig").show();
-            da("./2mm_sec.csv",Number(5));
             $("#adiv").html("<div class=\"col-sm-12\"><video width=\"100%\" autoplay id=\"adivid\"> <source src=\"./images/Weld2.mp4\" type=\"video/mp4\"> </video> </div>");
-            document.getElementById("adivid").playbackRate = 0.5;
+            document.getElementById("adivid").playbackRate = 1.15;
+            da("./2mm_sec.csv",Number(4));
             document.getElementById("adivid").onended=function(){
                 $("#adiv").html("<div class=\"col-sm-12\"><img width=\"100%\" id=\"adivid\" src=\"./images/P2.png\" /></div>");
                 $("#adipl").show();
@@ -105,9 +105,10 @@ function adiwe2(a){
             $("#adism").show();
             $("#adipl").hide();
             $("#adig").show();
-            da("./4mm_sec.csv",Number(6));
+            
             $("#adiv").html("<div class=\"col-sm-12\"><video width=\"100%\" autoplay  id=\"adivid\"> <source src=\"./images/Weld2.mp4\" type=\"video/mp4\"> </video> </div>");
-            document.getElementById("adivid").playbackRate = 1.5;
+            document.getElementById("adivid").playbackRate = 2.0;
+            da("./4mm_sec.csv",Number(4));
             document.getElementById("adivid").onended=function(){
                 $("#adiv").html("<div class=\"col-sm-12\"><img width=\"100%\" id=\"adivid\" src=\"./images/P2.png\" /></div>");
                 $("#adipl").show();
