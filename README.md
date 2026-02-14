@@ -4,7 +4,7 @@
 <b>Discipline | <b> Mechanical Engineerig
 :--|:--|
 <b> Lab | <b> Welding Lab
-<b> Experiment|     <b> Heat flow across the weld bead and Experiment 2
+<b> Experiment|     <b> Heat flow across the weld bead and Experiment 4
 
 ### About the Experiment 
 
